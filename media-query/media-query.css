@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-image: linear-gradient(to bottom, #F0E2E7,#B2CEDE);
+    }
+
+    section#caixa{
+        background-color: white;
+    }
+
+    div.faixa {
+        background-color: #3F84E5;
+    }
+}
+
+@media screen and (min-width:992px){
+
+    body {
+        background-image: linear-gradient(to bottom, #3F84E5, #F0E2E7, #B2CEDE);
+    }
+
+    section#caixa{
+        background-color: white;
+        width: 30vw;
+    }
+
+    div.faixa {
+        background-color: #3F84E5;
+    }
+    
+}

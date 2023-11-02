@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="media-query/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section id="caixa">
+            <div class="faixa" id="superior"></div>
+            <div class="faixa" id="inferior"></div>
+            <div id="login">
+                <h1>Login</h1>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="forms">
+                        <span class="material-icons">person</span><br>
+                        <input type="email" name="email" id="iemail" placeholder="E-mail" required autocomplete="email">
+                    </div>
+                    <div class="forms">
+                        <span class="material-icons">vpn_key</span><br>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8" maxlength="10" autocomplete="current-password">
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <p>Esqueceu a senha? <a href="#">Clique aqui</a></p>
+                </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
